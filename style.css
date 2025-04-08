@@ -11,8 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
-    background: linear-gradient(to right,#1a1a1a, #333333 );
-    overflow: hidden;
+    background: linear-gradient(to right,#00213f, #00213f );
+    overflow-x: hidden;
 }
 
 header{
@@ -31,15 +31,33 @@ header h1{
     position: relative;
     top: -13px;
 }
+.btn-login{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.btn-login:hover{
+    background-color: white ;
+    color: #00203f;
+}
 .faixa-laranja{
     width: 100%;
     height: 30px;
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(255, 115, 0);
     position: absolute;
     display: flex;
     justify-content: center;
     padding-right: 0px;
     align-items: center;
+}
+.linha-laranja{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(255, 94, 0);
 }
 
 .navbar {
@@ -116,3 +134,118 @@ button{
     cursor: pointer;
     margin-top: 40px;
 }
+.slideshow-container {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+
+.slide-track {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.produtos-secao{
+    background-color: #00213f;
+    color: white;
+    padding: 40px 20px;
+}
+.titulo-categoria{
+    font-size: 25px;
+    color: #F26522;
+    margin-bottom: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.produtos-linha{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 60px;
+    margin: 100px;
+}
+.produto{
+    text-align: center;
+    width: 200px;
+}
+.produto img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.card{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #F26522;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.card-body{
+    padding-top: 10px;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.card-text{
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #333;
+}
+.btn-primario{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.btn-primario:hover{
+    background-color: #0056b3;
+}
+.produtos-linha{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-footer{
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    width: 100vw;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
