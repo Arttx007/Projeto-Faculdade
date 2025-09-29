@@ -1,0 +1,19 @@
+.login-btn-wrapper {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: #f46600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #d85400;
+}
